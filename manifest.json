@@ -1,0 +1,13 @@
+{
+  "name": "What is my ip?",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "You can learn your ip just one click.",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html",
+    "default_title": "What is my IP?"
+  }
+}
+
+

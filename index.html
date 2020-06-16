@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            color: #342b38;
+            cursor: pointer;
+        }
+
+        body {
+            width: 220px;
+            margin: auto;
+            background: none;
+            border: none
+        }
+
+        .info {
+            background: #ff9595;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 3px 6px rgba(52, 43, 56, 0.27);
+            text-align: center;
+        }
+
+        .info .ip {
+            font-weight: bold;
+            border-bottom: #342b38 1px solid;
+        }
+
+        .info .alert {
+            margin-top: 5px;
+            padding: 2px;
+            background: mediumaquamarine;
+            color: aliceblue;
+            border-radius: 20px;
+        }
+
+        .info .err {
+            background: rgba(246, 82, 82, 0.74);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div class="info">
+    <div class="ip">Loading info...</div>
+    <div class="country"></div>
+    <div class="isp"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
