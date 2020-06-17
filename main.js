@@ -1,4 +1,3 @@
-const URL = 'https://www.imdb.com/search/title/?title_type=feature&groups=top_100';
 fetch('http://ip-api.com/json')
     .then(response => response.json())
     .then(data => {
