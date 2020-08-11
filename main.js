@@ -14,7 +14,7 @@ document.querySelector("div.info").addEventListener('click', () => {
             data.innerHTML += '<div class="alert">Successfully copied to clipboard.</div>';
             setTimeout(() => document.querySelector('body > div > div.alert').remove(), 1800);
         }, function (err) {
-            data.innerHTML += '<div class="alert err">Successfully copied to clipboard.</div>';
+            data.innerHTML += '<div class="alert err">Have some errors.</div>';
             setTimeout(() => document.querySelector('body > div > div.alert').remove(), 1800);
         });
     }
